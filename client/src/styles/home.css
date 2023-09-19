@@ -1,0 +1,53 @@
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    background-color: var(--secondary-bg);
+    padding: 5rem;
+    border-radius: 10px;
+    width: 30rem;
+
+    max-width: 1200px;
+
+}
+.post-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    background-color: var(--secondary-bg);
+    max-width: 1200px;
+
+    border-radius: 10px;
+}
+.post-meta {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+}
+.post-meta h5 {
+    font-weight: 800;
+}
+.post-meta p {
+    color: var(--secondary-text);
+    font-style: italic;
+    font-size: .8rem;
+}
+
+.post-interact {
+    display: flex;
+    gap: 1rem;
+}
+.post-interact button {
+    padding: .0rem;
+    font-size: .8rem;
+    color: var(--secondary-text);
+    background-color: var(--secondary-bg);
+}
+
+
+.request-message {
+    border-bottom: none;
+}

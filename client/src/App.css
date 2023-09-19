@@ -1,0 +1,193 @@
+/* Global Styles */
+#root {
+  margin: 0;
+  padding: 0rem;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Styles */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+  background-color: var(--secondary-bg);
+  margin: none;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li a {
+  color: var(--primary-text);
+  font-weight: 900;
+}
+
+/* Main Content Styles */
+.browser-window {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.container {
+  padding: 1rem;
+  align-self: center;
+  justify-self: center;
+  width: 80%;
+}
+
+/* Sidebars Styles */
+.left-sidebar, .right-sidebar {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  background-color: var(--secondary-bg);
+  border-radius: 8px;
+  padding: 1rem;
+  max-width: 20%;
+  margin-top: 5rem;
+}
+
+.left-sidebar ul, .right-sidebar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.left-sidebar img, .right-sidebar img {
+  max-width: 2rem;
+  max-height: 2rem;
+  border-radius: 100px;
+}
+
+.user-info ul li, .user-shortcuts ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.user-info ul li a, .user-shortcuts ul li a {
+  color: var(--primary-text);
+  font-weight: 700;
+}
+
+.left-sidebar ul li {
+  justify-content: left;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.left-sidebar ul li {
+  text-align: left;
+}
+
+.left-sidebar {
+  gap: 1rem;
+  margin-left: 1rem;
+}
+
+.right-sidebar {
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+.left-sidebar p, .right-sidebar p {
+  padding: none;
+  margin: none;
+  color: var(--primary-text);
+  font-weight: 500;
+  border-bottom: 2px solid var(--secondary-text);
+}
+
+/* Form and Textarea Styles */
+.welcome-container, .post-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.post-form {
+  padding: 1rem;
+}
+
+textarea, input {
+  background-color: var(--secondary-bg);
+  color: var(--primary-text);
+  border-radius: 10px;
+  padding: .25rem;
+}
+
+/* Profile Page Styles */
+
+/* Profile header styles */
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Profile controls styles */
+.profile-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+/* Profile image styles */
+.profile-header img {
+  max-width: 10rem;
+  max-height: 10rem;
+  border-radius: 100px;
+}
+
+/* Post meta styles */
+.post-meta img {
+  max-width: 2rem;
+  max-height: 2rem;
+  border-radius: 100px;
+}
+
+/* Horizontal Rule Styles */
+hr {
+  color: var(--primary-text);
+  border: 1px solid var(--primary-bg);
+  width: 100%;
+}
+
+/* Search Results Styles */
+textarea {
+  width: 80%;
+  max-width: 80%;
+  max-height: 1%;
+}
+
+.search-results-container {
+  top: 0;
+}
+
+.search-results-container ul {
+  list-style: none;
+}
